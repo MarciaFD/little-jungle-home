@@ -82,10 +82,13 @@ footer{
 
 .social-channels li{
     display: inline;
+    
 }
 
-.social-channels{
+.social-channels {
+    
     font-size: 150%;
     margin: 25px;
     padding: 25px;
+    color: green;
 }

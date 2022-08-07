@@ -31,7 +31,8 @@ h1, h2 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;   
+    letter-spacing: 4px;  
+    color:black; 
 }
 
 #menu li {
@@ -50,9 +51,20 @@ h1, h2 {
 }
 
 #menu, a:hover{
-    border-bottom: 1px solid #4a4a4a;
+    border-bottom: 1px solid black;
 }
 
 .active{
-    border-bottom: 1px solid #4a4a4a;
+    border-bottom: 1px solid black;
+}
+
+#plants-white-wall {
+       height: 800px;
+       width: 100%;
+       background: url(../images/Plants\ in\ a\ white\ wall\ \ REsized\ draw\ pixel\ id-3394988-jpeg\ -\ Copy.jpg) no-repeat center;    
+}
+
+#welcome {
+    text-align: center;
+    color: darkgreen;
 }

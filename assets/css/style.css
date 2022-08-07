@@ -20,11 +20,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color:black;
+    
 }
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 250%;
+        
 }
 
 /* navigation links */
@@ -73,22 +75,22 @@ h1, h2 {
 
 footer{
     height: 150px;
+    margin-top: 25px;
+    padding: 25px, 0;
+    background-color: blanchedalmond;
 }
 
 .social-channels {
     text-align: center;
-    
+        
 }
 
 .social-channels li{
-    display: inline;
-    
-}
-
-.social-channels {
-    
+    display:inline; 
     font-size: 150%;
     margin: 25px;
-    padding: 25px;
-    color: green;
+    padding: 30px; 
+    
+}
+ 
 }

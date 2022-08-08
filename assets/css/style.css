@@ -29,6 +29,14 @@ h1, h2 {
             
 }
 
+header h2{
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 32px;
+    text-align: center;
+
+}
+
 /* navigation links */
 
 #menu {
@@ -96,10 +104,9 @@ footer{
  
 /* plants */
 
-#plants {
-    color: red;
-    text-align: center;
-    text-transform: uppercase lowercase;
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-

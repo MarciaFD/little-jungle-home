@@ -64,7 +64,7 @@ h1, h2 {
 #plants-white-wall {
        height: 800px;
        width: 100%;
-       background: (url(../images/Capa\ 1200Plants\ in\ a\ white\ wall\ raw\ pixel.jpg)) no-repeat center;    
+       background: url(../images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat center;    
 }
 
 #welcome {
@@ -96,7 +96,10 @@ footer{
  
 /* plants */
 
-.plants {
-    margin: 0 auto;
+#plants {
+    color: red;
+    text-align: center;
+    text-transform: uppercase lowercase;
 
 }
+

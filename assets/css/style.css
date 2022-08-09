@@ -86,7 +86,7 @@ footer{
     height: 150px;
     margin-top: 25px;
     padding: 25px, 0;
-    background-color: blanchedalmond;
+    
 }
 
 .social-channels {
@@ -106,7 +106,9 @@ footer{
 
 
 img {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    width: 25%;
+    height:25%;
 }

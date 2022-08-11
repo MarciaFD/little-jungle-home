@@ -26,26 +26,6 @@ h1, h2 {
     
 }
 
-/* --   verificar
-#logo h1 {
-    float: left;
-    font-size: 200%;
-    left: 20px;
-    color: red;            
-}
-
---*/
-
-
-
-header h2{
-    text-transform: none;
-    letter-spacing: 1px;
-    font-size: 32px;
-    text-align: center;
-
-}
-
 /* navigation links */
 
 #menu {
@@ -82,8 +62,8 @@ header h2{
         background: url(../images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat center center;
        height: 800px;
        width: 100%;
-
-}
+    
+       }
 
 #welcome {
     text-align: center;

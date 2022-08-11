@@ -8,9 +8,12 @@
 
 
 body {
+
     font-family: Oswald, sans-serif;
     font-weight: 300;
     color: black;
+    background-color:#fff
+ 
 }
 
 /* headings and logo */
@@ -23,15 +26,16 @@ h1, h2 {
     
 }
 
-/** entender porque nao funciona a propriedade no logo
+/* --   verificar
 #logo h1 {
     float: left;
     font-size: 200%;
     left: 20px;
-    color: red;
-            
+    color: red;            
 }
-*/
+
+--*/
+
 
 
 header h2{
@@ -65,7 +69,7 @@ header h2{
     line-height: 75px;
 }
 
-#menu, a:hover{
+#menu, a {
     border-bottom: 1px solid black;
 }
 
@@ -75,14 +79,15 @@ header h2{
 
 
 #plants-white-wall {
+        background: url(../images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat center center;
        height: 800px;
        width: 100%;
-       background: url(/images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat cover;    
+
 }
 
 #welcome {
     text-align: center;
-    color: rgba(black);
+    color: black;
 }
 
 */ footer */
@@ -111,18 +116,21 @@ footer{
 
 
 img {
-    display: inline-block;
+    display: block;
     margin-left: auto;
-    margin-right: auto;
-    display: flex;
+    margin-right: auto; 
     justify-content: center;
-       
+    border-style:solid
+
 }
 
+
 div p {
-    min-width: 400px;
-    max-width: 800px;
-    color: green;
+     color: black;
     background-color: #fff;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    border: solid;
+    
         
     }

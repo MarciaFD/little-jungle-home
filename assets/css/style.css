@@ -59,7 +59,7 @@ h1, h2 {
 
 
 #plants-white-wall {
-        background: url(../images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat center center;
+       background: url(../images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat center center;
        height: 800px;
        width: 100%;
     
@@ -100,17 +100,51 @@ img {
     margin-left: auto;
     margin-right: auto; 
     justify-content: center;
-    border-style:solid
+    border-style: solid;
+    border-color: beige;
+        
 
 }
 
 
 div p {
-     color: black;
+     
     background-color: #fff;
     font-size: 20px;
     letter-spacing: 1.6px;
-    border: solid;
+    columns: auto;
+    text-align-last: center;
+    column-count: 1;
     
-        
+            
     }
+
+#aloe-vera {
+    column-count: 1;
+        
+}
+
+#anthurium {
+    column-count: 1;
+}
+
+#chinese-money {
+    column-count: 1;
+}
+
+#jade {
+    column-count: 1;
+    
+}
+
+#kalanchoe {
+    column-count: 1;
+}
+
+#peace-lily {
+    column-count: 1
+}
+
+#snake-plant {
+    column-count: 1;
+}

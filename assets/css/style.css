@@ -99,10 +99,16 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    justify-content: center;
-    border-style: solid;
-    border-color: beige;
-        
+    justify-content: left;
+    border-style: hidden;
+    border-color: lightgray;
+    width: 100%;
+    height: 300px; 
+    float: right;
+    padding: 10px;
+    align-items: left;
+    max-width: 300;
+
 
 }
 
@@ -115,69 +121,14 @@ div p {
     columns: auto;
     text-align-last: center;
     column-count: 1;
-    
-            
-    }
-
-    .aloe {
-        display: flex;   
-        flex-wrap: wrap;
-        /* background-color: #EFF0E8; */
-    }
-    
-    .aloe-content {
-        margin: 30px 0 30px;
-        flex-direction: row-reverse;
-        float: right;
-    
-    }
-
-
-    .aloe-text {
-        
-        margin-top: 10px;
-    }
-
- 
-   img {
-
-    float: left;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
-    max-width: 186px;
-    border: transparent thin solid;
-   }
+               
+    }  
     
 @media screen and (min-width: 400px) {
-  .aloe{
+  .plants {
     display: flex;
   }
 
 }
 
-    
-
-#anthurium {
-    column-count: 1;
-}
-
-#chinese-money {
-    column-count: 1;
-}
-
-#jade {
-    column-count: 1;
-    
-}
-
-#kalanchoe {
-    column-count: 1;
-}
-
-#peace-lily {
-    column-count: 1
-}
-
-#snake-plant {
-    column-count: 1;
-}
+ 

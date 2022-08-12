@@ -11,9 +11,8 @@ body {
 
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color: black;
-    background-color:#fff
- 
+    color: #3a3a3a;
+    
 }
 
 /* headings and logo */
@@ -22,16 +21,17 @@ h1, h2 {
     font-family: Abel, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
-    color:black;
+    color: #252525
     
 }
+
 
 /* navigation links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;  
-    color:black; 
+    color:#3a3a3a; 
 }
 
 #menu li {
@@ -50,11 +50,11 @@ h1, h2 {
 }
 
 #menu, a {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 
@@ -62,19 +62,23 @@ h1, h2 {
        background: url(../images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat center center;
        height: 800px;
        width: 100%;
+       background-color: #d5dcd9;
     
        }
 
 #welcome {
     text-align: center;
-    color: black;
+    color:#252525;
 }
 
 
 #second-webpage {
-    background: url(../images/1500\ 2ndphoto\ webpage2.jpg) no-repeat center center;
+   
     height: 800px;
     width: 100%;
+    background: url(../images/1500\ 2ndphoto\ webpage2.jpg) no-repeat center center;
+    background-color: #fbfbf0;
+    
 
 }
 
@@ -113,7 +117,9 @@ img {
     height: 300px; 
     float: right;
     padding: 10px;
-      
+    background-color: rgba 0 0 0 .6;
+       
+
 
 }
 
@@ -123,9 +129,8 @@ div p {
     font-size: 18px;
     letter-spacing: 1.6px;
     columns: auto;
-    text-align-last: center;
-    column-count: 1;
-               
+    text-align: center;
+                 
     }  
     
 @media screen and (min-width: 400px) {

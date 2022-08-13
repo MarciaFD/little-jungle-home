@@ -78,8 +78,48 @@ h1, h2 {
     width: 100%;
     background: url(../images/1500\ 2ndphoto\ webpage2.jpg) no-repeat center;
     background-color: #fbfbf0;
-         
+
 }
+
+
+/* plants */
+
+#easy-care {
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: left;
+    width: 100%;
+    height: 300px; 
+    float: right;
+    padding: 10px;
+    background-color: rgba 0 0 0 .6;
+
+    }
+
+
+div p {
+     
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    text-align: center;
+                 
+    }  
+    
+@media screen and (min-width: 400px) {
+  .plants {
+    display: flex;
+  }
+}
+
+
+
+
 
 
 */ footer */
@@ -104,39 +144,8 @@ footer{
     
 }
  
-/* plants */
 
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    justify-content: left;
-    width: 100%;
-    height: 300px; 
-    float: right;
-    padding: 10px;
-    background-color: rgba 0 0 0 .6;
-       
 
-
-}
-
-
-div p {
-     
-    font-size: 18px;
-    letter-spacing: 1.6px;
-    columns: auto;
-    text-align: center;
-                 
-    }  
-    
-@media screen and (min-width: 400px) {
-  .plants {
-    display: flex;
-  }
-
-}
 
  

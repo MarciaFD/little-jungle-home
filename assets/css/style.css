@@ -59,11 +59,11 @@ h1, h2 {
 
 
 #plants-white-wall {
-       background: url(../images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat center center;
+       background: url(../images/1500\ Capa\ Plants\ in\ a\ white\ wall\ raw\ pixel\ CAPA-\ Copy.jpg) no-repeat center;
        height: 800px;
        width: 100%;
        background-color: #d5dcd9;
-    
+           
        }
 
 #welcome {
@@ -76,10 +76,9 @@ h1, h2 {
    
     height: 800px;
     width: 100%;
-    background: url(../images/1500\ 2ndphoto\ webpage2.jpg) no-repeat center center;
+    background: url(../images/1500\ 2ndphoto\ webpage2.jpg) no-repeat center;
     background-color: #fbfbf0;
-    
-
+         
 }
 
 

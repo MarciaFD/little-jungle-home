@@ -75,12 +75,13 @@ h1, h2 {
 
 #second-webpage {
    
-    height: 800px;
+    height: 700px;
     width: 100%;
     background: url(../images/1500\ plants\ floor\ window.jpg) no-repeat center;
     background-color: #fbfbf0;
 
 }
+
 
 
 /* plants */
@@ -90,9 +91,12 @@ h1, h2 {
     font-size: 21px;
 }
 
-img {
+
+
+.plants1 {
     display: block;
-    margin-left: 25px;   
+    margin-left: 25px; 
+    margin-right: auto;  
     justify-content: left;
     width: 100%;
     height: 400px; 

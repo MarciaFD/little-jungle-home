@@ -115,6 +115,22 @@ div p {
                      
     }  
 
+
+    /* gallery */
+
+#images{
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+ 
+#images > img {
+    width: 100%;
+}    
+
+
+
 /* footer */
 
 footer{

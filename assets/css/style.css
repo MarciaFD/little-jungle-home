@@ -73,9 +73,10 @@ h1, h2 {
 }
 
 
+/* Plants */
 #second-webpage {
    
-    height: 700px;
+    height: 800px;
     width: 100%;
     background: url(../images/1500\ plants\ floor\ window.jpg) no-repeat center;
     background-color: #fbfbf0;
@@ -83,12 +84,7 @@ h1, h2 {
 }
 
 
-#quote-life{
-    font-size: 30px;
-}
 
-
-/* plants */
 
 #easy-care {
     letter-spacing: 2px;

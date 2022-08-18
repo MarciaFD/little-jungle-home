@@ -19,7 +19,7 @@ Little jungle is a website that intends encourage people to create a green space
 
 The landing page with a striking image introduce the user to the Little Jungle. The landing page consists in a photograph of a cosy room decorated with plants. Also, the user can find in the footer`s webpage the social media icons.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/1500%20Capa%20Plants%20in%20a%20white%20wall%20raw%20pixel%20CAPA-%20Copy.jpg)
 
 - __The Footer__ 
 
@@ -32,7 +32,7 @@ The landing page with a striking image introduce the user to the Little Jungle. 
 
   - The plant section will allow the user to find out different types of easy care plants, as well as the benefits of having plants at home. 
 
-![Plant](https://8000-marciafd-littlejungleho-gfw7kfhnnbb.ws-eu62.gitpod.io/plants.html)
+![Plant](assets/images/1500%20second%20page%20plants.jpg)
 
 
 - __The Gallery Page__

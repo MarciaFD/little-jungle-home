@@ -48,44 +48,40 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-}
+ }
 
 #menu a {
     text-decoration: none;
     color: inherit;
-}
+ }
 
 #menu, #logo{
     line-height: 75px;
-}
+ }
 
 #menu, a {
     border-bottom: 1px solid #3a3a3a;
-}
+ }
 
 .active{
     border-bottom: 1px solid #3a3a3a;
-}
+  }
 
 
-/* Plants */
+/* plants */
 #second-webpage {
    
     height: 800px;
     width: 100%;
     background: url(../images/1500\ plants\ floor\ window.jpg) no-repeat center;
     background-color: #fbfbf0;
-
-}
-
-
+  }
 
 
 #easy-care {
     letter-spacing: 2px;
     font-size: 21px;
-}
-
+  }
 
 
 .plants1 {
@@ -98,8 +94,8 @@ h1, h2 {
     float: right;
     padding: 10px;
     background-color: rgba 0 0 0 .6;
-        
-    }
+
+   }
 
 
 div p {
@@ -134,5 +130,46 @@ footer{
     
 }
  
-/* Gallery */
+/* gallery */
 
+.wrap {
+    margin: 0, auto;
+    border: 2px solid #ff0000000;
+
+}
+
+.container .heading {
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222; 
+
+}
+
+.container .heading h3 span {
+    font-weight: 100;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    border: 2px solid green; 
+
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -39,7 +39,7 @@ The landing page with a striking image introduce the user to the Little Jungle. 
 
   - This section will show to the user some room ideas with plants in the home design.  The user will see a mix of plants placed to inspire them to create a similar environment in their house.
   
-  ![Gallery](https://8000-marciafd-littlejungleho-gfw7kfhnnbb.ws-eu62.gitpod.io/gallery.html)
+  ![Gallery](assets/images/photo-gallery.png)
 
   
 

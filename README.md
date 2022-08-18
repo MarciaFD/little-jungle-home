@@ -57,7 +57,7 @@ Information is presented to assist people get a quick understanding about easy c
 
 ### Validator Testing 
 
-)
+
 
 ### Unfixed Bugs
 
@@ -67,8 +67,8 @@ Information is presented to assist people get a quick understanding about easy c
 
 
 
-## Credits 
 
+## Credits 
 ### - Content 
 
 The writing information for the Plants page was taken from different websites sources:

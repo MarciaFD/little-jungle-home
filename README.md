@@ -1,7 +1,3 @@
-![Little Jungle](https://8000-marciafd-littlejungleho-gfw7kfhnnbb.ws-eu62.gitpod.io/)
-
-
-
 # Little Jungle
 
 Little jungle is a website that intends encourage people to create a green space at their home with low maintenance plants. The website provide information about easy care plants to have at home and intends to target people who don’t have experience with gardening giving some advice and suggestions about plants. Let’s green it!
@@ -13,7 +9,8 @@ Little jungle is a website that intends encourage people to create a green space
 
 -	In this section, user can explore the site directly, from page to page on all devices easily. The responsive navigation bar includes identical links to the Home, Plants and Gallery pages for an easy navigation.
 
-! [Nav bar]
+![Landing Page](assets/images/logo-menu.png)
+
 
 - __The landing page image__
 
@@ -32,7 +29,7 @@ The landing page with a striking image introduce the user to the Little Jungle. 
 
   - The plant section will allow the user to find out different types of easy care plants, as well as the benefits of having plants at home. 
 
-![Plant](assets/images/1500%20second%20page%20plants.jpg)
+![Plant](assets/images/1500%20plants%20floor%20window.jpg)
 
 
 - __The Gallery Page__
@@ -49,7 +46,7 @@ The landing page with a striking image introduce the user to the Little Jungle. 
 
 
 
-- 
+-
 
 
 

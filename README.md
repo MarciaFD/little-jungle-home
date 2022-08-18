@@ -4,13 +4,20 @@
 
 # Little Jungle
 
+Little jungle is a website that intends encourage people to create a green space at their home with low maintenance plants. The website provide information about easy care plants to have at home and intends to target people who don’t have experience with gardening giving some advice and suggestions about plants. Let’s green it!
 
-Welcome MarciaFD,
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Existing Features 
+<br>
 
-## Gitpod Reminders
+**Navigation Bar
+
+ o	In this section, user can explore the site directly, from page to page on all devices easily. The responsive navigation bar includes identical links to the Home, Plants and Gallery pages for an easy navigation.
+
+
+
+•	Navigation Bar
+Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 

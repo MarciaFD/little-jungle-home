@@ -25,6 +25,11 @@ body {
     text-decoration: none;
     font-size: 300%;
     float: left;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    width: 50%;
+    height: 90px;
 }
 
 h1, h2 {
@@ -45,7 +50,7 @@ h1, h2 {
 
 .contactTitle {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -55,6 +60,7 @@ h1, h2 {
 /* navigation links */
 
 #menu {
+
     font-size: 120%;
     letter-spacing: 4px;  
     color:#3a3a3a; 
@@ -67,18 +73,29 @@ h1, h2 {
 }
 
 #menu li {
+
     float: right;
     list-style-type: none;
     margin-right: 30px;
+
  }
 
 #menu a {
+
     text-decoration: none;
     color: inherit;
  }
 
 #menu, #logo{
+    
     line-height: 75px;
+    float: left;
+ }
+
+ #logo {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
  }
 
 .active{
@@ -210,6 +227,16 @@ footer{
 
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40p 20px 0 20px;
+
+ }
+
 .container .heading {
     width: 50%;
     padding-bottom: 50px;
@@ -228,15 +255,6 @@ footer{
     font-weight: 100;
 }
 
-
-.container {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   margin: 40p 20px 0 20px;
-}
 
 .container .box {
     display: flex;
@@ -257,3 +275,41 @@ footer{
 }
 
 /* end of gallery */
+
+/* contact form */
+
+.input [type=text], select, textarea {
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #faa386;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ 
+}
+
+.input[type=submit] {
+    background-color: #f37e57;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input [type=submit]:hover {
+    background-color:#f67347;
+      
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #faa386a7;
+    padding: 20px;
+    width: 600px;
+    margin: 20px auto;
+
+.

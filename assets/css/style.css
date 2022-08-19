@@ -10,7 +10,6 @@
 body {
 
     font-family: Oswald, sans-serif;
-    font-weight: 300%;
     color: #3a3a3a;
     margin: 0;
     padding: 0;
@@ -33,8 +32,23 @@ h1, h2 {
     text-transform: capitalize;
     letter-spacing: 4px;
     color: #252525
-        
+
 }
+
+.coverImg {
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.contactTitle {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
  /*end of headings and logo */
 
 
@@ -44,6 +58,12 @@ h1, h2 {
     font-size: 120%;
     letter-spacing: 4px;  
     color:#3a3a3a; 
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 100%;
+    height: 90px;
+    background: radial-gradient(circle, #fccdb9, #f7a684 94%);
 }
 
 #menu li {
@@ -61,32 +81,58 @@ h1, h2 {
     line-height: 75px;
  }
 
-#menu, a {
-    border-bottom: 1px solid #3a3a3a;
- }
-
 .active{
     border-bottom: 1px solid #3a3a3a;
   }
 
+  #welcome {
+    text-align: center;
+    color: #252525;
+    margin-top: 0;
+    padding: 0 ;
+  }
   /* end of navigation links */
 
 
 /* plants */
 #second-webpage {
    
-    height: 800px;
+    height: 700px;
     width: 100%;
     background: url(../images/1500\ plants\ floor\ window.jpg) no-repeat center;
     background-color: #fbfbf0;
   }
 
-
-#easy-care {
+  .text {
     letter-spacing: 2px;
     font-size: 21px;
+    margin: 20px 200px;
+    line-height: 1.9;
+    text-align: left;
+    
   }
 
+  .plants h2 {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+
+  }
+
+  .citation {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 90px 250px;
+  }
+
+  .mainPlants {
+    border-radius: 10px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
 
 .plants1 {
     display: block;
@@ -133,9 +179,29 @@ footer{
     font-size: 150%;
     margin: 25px;
     padding: 30px; 
+    text-decoration: none;
     
 }
+
+.fa-brands fa-square-facebook,
+.fa-twitter,
+.fa-youtube,
+.fa-instagram,
+.fa-square-facebook,
+.fa-brands {
+    color: #bd734b;
+    border-bottom: none;
+}
  
+.fa-brands:hover fa-square-facebook,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-square-facebook:hover,
+.fa-square-facebook:hover,
+.fa-brands:hover {
+    transform: scale(1.5);
+}
+
 /* gallery */
 
 .wrap {

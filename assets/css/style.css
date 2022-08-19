@@ -112,7 +112,8 @@ h1, h2 {
 
 
 /* plants */
-#second-webpage {
+
+.second-webpage {
    
     height: 700px;
     width: 100%;
@@ -142,14 +143,13 @@ h1, h2 {
     margin: 90px 250px;
   }
 
-  .mainPlants {
+.mainPlants {
     border-radius: 10px;
     margin: 60px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-
-  }
+}
 
 .plants1 {
     display: block;
@@ -220,6 +220,21 @@ footer{
 }
 
 /* gallery */
+
+#images{
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0;
+}
+
+
+#images > img {
+    width: 100%;
+
+}
+
+
 
 .wrap {
     margin: 0, auto;

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Oswald:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Oswald&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +18,7 @@ body {
 }
 
 
-/* headings and logo */
+/* Headings and logo */
 
 #logo {
     text-decoration: none;
@@ -57,7 +56,7 @@ h1, h2 {
  /*end of headings and logo */
 
 
-/* navigation links */
+/* Navigation links */
 
 #menu {
 
@@ -111,7 +110,7 @@ h1, h2 {
   /* end of navigation links */
 
 
-/* plants */
+/* Plants */
 
 .second-webpage {
    
@@ -151,38 +150,23 @@ h1, h2 {
     align-items: center;
 }
 
-.plants1 {
-    display: block;
-    margin-left: 25px; 
-    margin-right: auto;  
-    justify-content: left;
-    width: 100%;
-    height: 400px; 
-    float: right;
-    padding: 10px;
-    background-color: rgba 0 0 0 .6;
-
-   }
-
-
 div p {
      
     font-size: 20px;
     letter-spacing: 1.6px;
-    text-align: center;
-                     
-    }  
+    text-align: center;                     
+}  
 
- /* end of plants */   
-
+ /* end of plants */  
 
 
-/* footer */
+
+/* Footer */
 
 footer{
     height: 150px;
     margin-top: 25px;
-    padding: 25px, 0;
+    padding: 25px 0;
     
 }
 
@@ -196,8 +180,7 @@ footer{
     font-size: 150%;
     margin: 25px;
     padding: 30px; 
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .fa-brands fa-square-facebook,
@@ -231,15 +214,13 @@ footer{
 
 #images > img {
     width: 100%;
-
 }
 
 
 
 .wrap {
-    margin: 0, auto;
+    margin: 0 auto;
     border: 2px solid #ff000000;
-
 }
 
 .container {
@@ -248,7 +229,7 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40p 20px 0 20px;
+    margin: 40px 20px 0 20px;
 
  }
 
@@ -288,10 +269,9 @@ footer{
     padding-bottom: 15px;
     border-radius: 5px;
 }
-
 /* end of gallery */
 
-/* contact form */
+/* Contact form */
 
 .input [type=text], select, textarea {
 
@@ -316,8 +296,7 @@ footer{
 }
 
 .input [type=submit]:hover {
-    background-color:#f67347;
-      
+    background-color:#f67347;      
 }
 
 .form {
@@ -326,5 +305,4 @@ footer{
     padding: 20px;
     width: 600px;
     margin: 20px auto;
-
-.
+}

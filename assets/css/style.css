@@ -241,10 +241,10 @@ footer{
 
 .container .heading h2 {
     font-size: 3em;
-    font-weight: bolder;
-    padding-bottom: 10px;
+    font-weight: bolder; 
+    margin-top: 50px;   
+    padding-top: 50px;
     border-bottom: 3px solid #222; 
-
 }
 
 .container .heading h2 span {

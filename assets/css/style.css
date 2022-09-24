@@ -22,13 +22,14 @@ body {
 
 .logo {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 30px;
     float: left;
     position: fixed;
     top: 0;
     left: 10px;
     width: 50%;
-    height: 90px;
+    height: 50px;
+    letter-spacing: 2px;
 }
 
 h1, h2 {
@@ -47,13 +48,7 @@ h1, h2 {
     height: 100%;
 }
 
-.contactTitle {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 40px;
-}
 
- /*end of headings and logo */
 
 
 /* Navigation links */
@@ -107,7 +102,7 @@ h1, h2 {
     margin-top: 0;
     padding: 0 ;
   }
-  /* end of navigation links */
+  
 
 
 /* Plants */
@@ -157,52 +152,30 @@ div p {
     text-align: center;                     
 }  
 
- /* end of plants */  
+  
 
-
-
-/* Footer */
-
-footer{
-    height: 150px;
-    margin-top: 25px;
-    padding: 25px 0;
+ /* MEDIA QUERIES */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 481px)
+and (max-width: 767px) {
     
-}
+  }
 
-.social-channels {
-    text-align: center;
-        
-}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) 
+ and (max-width: 1024) {
 
-.social-channels li{
-    display:inline; 
-    font-size: 150%;
-    margin: 25px;
-    padding: 30px; 
-    text-decoration: none;    
-}
+ }
 
-.fa-brands fa-square-facebook,
-.fa-twitter,
-.fa-youtube,
-.fa-instagram,
-.fa-square-facebook,
-.fa-brands {
-    color: #bd734b;
-    border-bottom: none;
-}
- 
-.fa-brands:hover fa-square-facebook,
-.fa-twitter:hover,
-.fa-instagram:hover,
-.fa-square-facebook:hover,
-.fa-square-facebook:hover,
-.fa-brands:hover {
-    transform: scale(1.5);
-}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1025px)
+  and (max-width:1280) {
 
-/* gallery */
+  } 
+
+/* Gallery */
 
 #images{
   clear: both;
@@ -215,7 +188,6 @@ footer{
 #images > img {
     width: 100%;
 }
-
 
 
 .wrap {
@@ -269,7 +241,7 @@ footer{
     padding-bottom: 15px;
     border-radius: 5px;
 }
-/* end of gallery */
+
 
 /* Contact form */
 
@@ -305,4 +277,53 @@ footer{
     padding: 20px;
     width: 600px;
     margin: 20px auto;
+}
+
+.contactTitle {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+/* Footer */
+
+footer{
+    height: 150px;
+    margin-top: 25px;
+    padding: 25px 0;
+    
+}
+
+.social-channels {
+    text-align: center;
+        
+}
+
+.social-channels li{
+    display:inline; 
+    font-size: 150%;
+    margin: 25px;
+    padding: 30px; 
+    text-decoration: none;    
+}
+
+.fa-brands fa-square-facebook,
+.fa-twitter,
+.fa-youtube,
+.fa-instagram,
+.fa-square-facebook,
+.fa-brands {
+    color: #bd734b;
+    border-bottom: none;
+}
+ 
+.fa-brands:hover fa-square-facebook,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-square-facebook:hover,
+.fa-square-facebook:hover,
+.fa-brands:hover {
+    transform: scale(1.5);
 }

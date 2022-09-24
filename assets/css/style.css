@@ -20,9 +20,9 @@ body {
 
 /* Headings and logo */
 
-#logo {
+.logo {
     text-decoration: none;
-    font-size: 300%;
+    font-size: 2rem;
     float: left;
     position: fixed;
     top: 0;
